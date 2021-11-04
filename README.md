@@ -11,4 +11,4 @@ A website that offers search engine optimization, online reputation management a
 https://trfina.github.io/code-refactor-horiseon
 
 ## Contribution
-Made with ❤️ by Tammy Fina
+Made with ❤️ by Tammy R Fina
