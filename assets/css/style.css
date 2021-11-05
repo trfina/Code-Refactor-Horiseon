@@ -15,6 +15,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* APPLY STYLES TO HEADER */
 .header {
     padding: 20px;
     font-family: var(--font-family1);
@@ -22,7 +23,6 @@ body {
     color: var(--primary-color);
 }
 
-/* HEADER SECTION BEGIN */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -48,7 +48,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/* HEADER SECTION END*/
+
 a {
     color: var(--primary-color);
     text-decoration: none;
@@ -57,8 +57,9 @@ a {
 p {
     font-size: 16px;
 }
+/* HEADER SECTION END*/
 
-/* HERO SECTION BEGIN */
+/* HERO STYLE START */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,8 +68,9 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* HERO SECTION END */
+/* HERO STYLE END */
 
+/* BEGIN CONTENT SECTION */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,7 +87,10 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization{
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing
+{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -94,52 +99,23 @@ p {
     color: var(--primary-color);
 }
 
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--font-family2);
-    background-color: #0072bb;
-    color: var(--primary-color);
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--font-family2);
-    background-color: #0072bb;
-    color: var(--primary-color);
-}
-
-.search-engine-optimization img {
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img
+{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2
+{
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* END CONTENT SECTION */
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* START BENEFITS SECTION*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -151,51 +127,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: var(--primary-color);
-}
-.benefit-brand {
-    margin-bottom: 32px;
-    color: var(--primary-color);
-}
-.benefit-cost {
+.benefit-lead, 
+.benefit-brand,
+.benefit-cost
+{
     margin-bottom: 32px;
     color: var(--primary-color);
 }
 
- .benefit-lead h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3
+ {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img
+ {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* END BENEFITS SECTION*/
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* START FOOTER */
 .footer {
     padding: 30px;
     clear: both;
@@ -206,3 +165,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* END FOOTER */
